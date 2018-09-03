@@ -11,7 +11,7 @@ const tagger = posTagger();
 
 app.use(bodyParser.json());
 
-app.options('/api', cors());
+app.options('*', cors());
 
 app.post('/api', cors(), (req, res) => {
   console.log('got api request');
