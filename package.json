@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
     "wink-pos-tagger": "^1.5.0",
     "wink-tokenizer": "^4.1.0"
   }
